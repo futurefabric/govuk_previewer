@@ -1,0 +1,22 @@
+body {
+	margin:55px 30px 0px 60px; background-color:#bbb;
+}
+
+.view_holder {
+	display:block; float:left;
+	margin-bottom:30px;
+}
+
+.mobile {
+	margin-right:90px;
+}
+
+h1 {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	text-rendering: optimizeLegibility;
+	font-weight:normal;
+	color:#222;
+	font-size: 32px;
+	margin:0; padding:0;
+	margin-bottom: 20px;
+}
