@@ -1,12 +1,12 @@
 class ExamplesController < ApplicationController
 
-before_filter :authenticate
+# before_filter :authenticate
 
 def index
 	@examples = get_examples
 end
 
-protected
+# protected
 
 def authenticate
 	if Rails.env.production?
